@@ -1,0 +1,58 @@
+body {
+	background-color: #D6CAE2;  
+	color: rgb(30,30,30);
+	font-weight: lighter;
+	font-family: Helvetica
+}
+
+h1 {
+	font-family: font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	color: #C2B0D4;
+}
+h2 {
+	font-family: font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+}
+a {
+	color: white; 
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black; 
+	text-decoration: none;
+}
+
+#myself {
+	border-radius: 40%;
+	border: 10px solid white;
+}
+.text-justify {
+	text-align: center;
+}
+
+div {
+	background: white;
+    padding: 30px;
+    margin: 60px;
+    color: black;
+    box-shadow: 0px 10px 30px rgb(194 176 212 / 30%);
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+	  .container {
+	  	width: 400px;
+	  }
+}
+
+
+
+
+
+
